@@ -1,0 +1,54 @@
+* {
+    font-family: "Poppins", sans-serif;
+
+}
+
+.car-background {
+    display: flex;
+    max-width: 1222px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+
+.car-background>.left-column {
+    text-transform: capitalize;
+}
+
+.car-background>.left-column>h1 {
+    font-size: 100px;
+}
+
+.car-background>.right-column > p{
+    width: 85%;
+
+}
+
+
+
+.left-column{
+    width: 50%;
+}
+
+.right-column{
+    width: 50%;
+}
+
+.car-background span {
+    color: blue;
+}
+
+.washed-car {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    max-width: 1150px;
+    margin: auto;
+    margin-top: -200px;
+}
+
+.washed-car .left-column{
+    width: 70%;
+}
