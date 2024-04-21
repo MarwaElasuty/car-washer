@@ -3,6 +3,11 @@
 
 }
 
+.section-container{
+    width:1222px ;
+    margin: auto;
+
+}
 .car-background {
     display: flex;
     max-width: 1222px;
@@ -12,6 +17,9 @@
     flex-wrap: wrap;
 }
 
+.car-background h3{
+    color: blue;
+}
 
 .car-background>.left-column {
     text-transform: capitalize;
@@ -51,4 +59,15 @@
 
 .washed-car .left-column{
     width: 70%;
+}
+
+.contact-car-details{
+    background-color: gainsboro;
+    display: flex;
+    /* max-width: 1150px; */
+}
+
+.contact-car-details .section-container{
+    display: flex;
+    column-gap: 30px;
 }
