@@ -71,3 +71,11 @@
     display: flex;
     column-gap: 30px;
 }
+
+
+
+/* Experience Div */
+
+.experience{
+    background-color: rgb(25, 47, 85);
+}
